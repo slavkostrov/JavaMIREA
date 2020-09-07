@@ -9,6 +9,11 @@ public class MovableRectangle implements Movable{
     }
 
     @Override
+    public String toString() {
+        return "Rectangle: (TopLeft " + topLeft.toString() + ", BottomRight " + bottomRight.toString();
+    }
+
+    @Override
     public void moveDown() {
         topLeft.moveDown();
         bottomRight.moveDown();

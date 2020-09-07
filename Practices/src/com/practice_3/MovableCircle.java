@@ -10,7 +10,7 @@ public class MovableCircle implements Movable{
     }
     @Override
     public String toString(){
-        return "Center: (" + this.x + ", " + this.y + "), Radius: " + this.radius;
+        return "Center: (" + center.toString() + "), Radius: " + this.radius;
     }
 
     @Override
