@@ -14,7 +14,7 @@ public class Circle extends Shape{
         this.radius = radius;
     }
     public double getRadius() {
-        return radius;
+        return this.radius;
     }
 
     public void setRadius(double radius) {
@@ -25,7 +25,7 @@ public class Circle extends Shape{
         return Math.PI*radius*radius;
     }
     @Override
-    public double getPerimetr(){
+    public double getPerimeter(){
         return 2*Math.PI*radius;
     }
     @Override

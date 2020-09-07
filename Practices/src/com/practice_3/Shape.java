@@ -28,6 +28,6 @@ public abstract class Shape {
     }
 
     public abstract double getArea();
-    public abstract double getPerimetr();
     public abstract String toString();
+    public abstract double getPerimeter();
 }

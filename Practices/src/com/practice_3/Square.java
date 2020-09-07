@@ -16,6 +16,10 @@ public class Square extends Rectangle{
         this.length = side;
     }
 
+    public double getSide(){
+        return this.width;
+    }
+
     @Override
     public void setWidth(double side) {
         this.width = side;
