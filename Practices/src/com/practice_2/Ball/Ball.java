@@ -39,7 +39,7 @@ public class Ball {
         this.y = y;
     }
 
-    public void mode(double xdisp, double ydisp){
+    public void move(double xdisp, double ydisp){
         this.x += xdisp;
         this.y += ydisp;
     }
