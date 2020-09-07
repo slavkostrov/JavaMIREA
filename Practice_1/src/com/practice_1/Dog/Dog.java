@@ -1,4 +1,4 @@
-package com.dog;
+package com.practice_1.Dog;
 
 import java.lang.*;
 public class Dog {

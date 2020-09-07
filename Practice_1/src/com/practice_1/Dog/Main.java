@@ -1,4 +1,6 @@
-package com.dog;
+package com.practice_1.Dog;
+
+import com.practice_1.Dog.Dog;
 
 import java.lang.*;
 public class Main {
