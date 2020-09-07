@@ -1,4 +1,4 @@
-package com.Kostrov.practice_1;
+package com.dog;
 
 import java.lang.*;
 public class Main {

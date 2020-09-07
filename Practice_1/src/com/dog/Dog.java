@@ -1,6 +1,6 @@
-package com.Kostrov.practice_1;
-import java.lang.*;
+package com.dog;
 
+import java.lang.*;
 public class Dog {
     private String name;
     private int age;
@@ -11,6 +11,7 @@ public class Dog {
     public Dog(String n){
         name = n;
         age = 0;
+
     }
     public Dog(){
         name = "Pup";
