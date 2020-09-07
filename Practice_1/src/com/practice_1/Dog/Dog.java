@@ -23,12 +23,13 @@ public class Dog {
     public void setName(String name) {
         this.name = name;
     }
-    public String getName(String name){
-        return name;
+    public String getName(){
+        return this.name;
     }
     public int getAge() {
-        return age;
+        return this.age;
     }
+
     public String toString(){
         return this.name+", age "+this.age;
     }
