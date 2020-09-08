@@ -22,15 +22,15 @@ class application extends JFrame {
         add(winner,  BorderLayout.NORTH);
         add(result,  BorderLayout.CENTER);
         add(last_scorer,  BorderLayout.SOUTH);
-        add(button_1, BorderLayout.EAST);
-        add(button_2, BorderLayout.WEST);
+        add(button_1, BorderLayout.WEST);
+        add(button_2, BorderLayout.EAST);
         button_1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 milan_score += 1;
                 result.setText("Result: " + milan_score + " X " + madrid_score + " ");
                 last_scorer.setText("Last scorer: AC Milan");
                 if (madrid_score < milan_score){
-                    winner.setText("AC Milan");
+                    winner.setText("Current winner: AC Milan");
                 }
                 else if (milan_score == madrid_score)
                 {
@@ -44,7 +44,7 @@ class application extends JFrame {
                 result.setText("Result: " + milan_score + " X " + madrid_score);
                 last_scorer.setText("Last scorer: Real Madrid");
                 if (madrid_score > milan_score){
-                    winner.setText("Real Madrid");
+                    winner.setText("Current winner: Real Madrid");
                 }
                 else if (milan_score == madrid_score)
                 {
