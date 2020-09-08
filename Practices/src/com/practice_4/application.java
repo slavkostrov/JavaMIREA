@@ -1,4 +1,4 @@
-package com.practice_4.app;
+package com.practice_4;
 
 import java.awt.*;
 import java.awt.event.*;
