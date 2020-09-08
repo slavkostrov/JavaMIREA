@@ -11,6 +11,15 @@ public class MovablePoint implements Movable{
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
+
+    public int getxSpeed() {
+        return xSpeed;
+    }
+
+    public int getySpeed() {
+        return ySpeed;
+    }
+
     @Override
     public String toString(){
         return "Point: (" + this.x + ", " + this.y + ")";
