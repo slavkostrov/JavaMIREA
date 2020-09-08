@@ -48,7 +48,7 @@ class application extends JFrame {
                 }
                 else if (milan_score == madrid_score)
                 {
-                    winner.setText("Draw");
+                    winner.setText("Draw");;
                 }
 
             }
