@@ -8,9 +8,9 @@ class application extends JFrame {
 
     JButton button_1 = new JButton("AC Milan");
     JButton button_2 = new JButton("Real Madrid");
-    JLabel result = new JLabel("Result: 0 X 0", JLabel.CENTER);
-    JLabel last_scorer = new JLabel("Last scorer: N/A", JLabel.CENTER);
-    JLabel winner = new JLabel("Draw", JLabel.CENTER);
+    JLabel result = new JLabel("Match doesn't started", JLabel.CENTER);
+    JLabel last_scorer = new JLabel("", JLabel.CENTER);
+    JLabel winner = new JLabel("", JLabel.CENTER);
     private int milan_score = 0;
     private int madrid_score = 0;
     Font fnt = new Font("Times new roman", Font.BOLD, 20);
