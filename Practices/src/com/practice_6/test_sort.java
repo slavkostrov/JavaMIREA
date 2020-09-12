@@ -10,7 +10,7 @@ public class test_sort {
         {
             Comparable key = list[i];
             int j = i;
-            while (j >= 1 && list[j-1].compareTo(key) == 1)
+            while (j >= 1 && list[j-1].compareTo(key) > 0)
             {
                 list[j] = list[j-1];
                 j = j - 1;

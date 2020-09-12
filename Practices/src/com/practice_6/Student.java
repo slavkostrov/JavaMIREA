@@ -27,6 +27,7 @@ public class Student implements Comparable <Student>{
     public String getName() {
         return name;
     }
+
     @Override
     public String toString(){
         return "Name: " + this.name + " Age: " + this.age + " with avg = " + this.average;
@@ -37,6 +38,9 @@ public class Student implements Comparable <Student>{
         if (this.age > o.age)
             return 1;
         else
-            return 0;
+            if (this.age == o.age)
+                return 0;
+        else
+            return -1;
     }
 }
