@@ -5,3 +5,4 @@
 * [Практическое задание 4](https://github.com/slavkostrov/JavaMIREA/tree/master/Practices/src/com/practice_4)
 * [Практическое задание 5](https://github.com/slavkostrov/JavaMIREA/tree/master/Practices/src/com/practice_5)
 * [Практическое задание 6](https://github.com/slavkostrov/JavaMIREA/tree/master/Practices/src/com/practice_6)
+* [Практическое задание 7](https://github.com/slavkostrov/JavaMIREA/tree/master/Practices/out/production/Practices/com/practice_7)
