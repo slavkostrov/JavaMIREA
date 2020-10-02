@@ -40,6 +40,7 @@ public class stackSolution {
                 while (!temp.empty())st2.push(temp.pop());
             }
         }
+        System.out.println("Botva");
     }
 
     public static void main(String[] args) {

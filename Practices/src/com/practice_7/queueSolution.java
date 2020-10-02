@@ -35,6 +35,7 @@ public class queueSolution {
                 st2.add(t1);
             }
         }
+        System.out.println("Botva");
     }
 
     public static void main(String[] args) {
