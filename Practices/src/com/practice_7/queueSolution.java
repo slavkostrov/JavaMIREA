@@ -8,7 +8,6 @@ public class queueSolution {
     public static void game(String player_1, String player_2){
         Queue<Integer> st1  = new LinkedList<>();
         Queue<Integer> st2 = new LinkedList<>();
-        Stack<Integer> temp = new Stack<Integer>();
         for (int i = 0; i < 5; ++i){
             st1.add( Character.getNumericValue(player_1.charAt(i)));
             st2.add(Character.getNumericValue(player_2.charAt(i)));
