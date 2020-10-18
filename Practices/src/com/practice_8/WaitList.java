@@ -34,16 +34,16 @@ public class WaitList <E> implements IWaitList <E>{
 
     @Override
     public boolean containsAll(Collection<E> c) {
-        for (int i = 0; i < c.size(); i++){
-            if (this.list.contains(c.toArray()[i]) == false){
-                return false;
-            }
-        }
-        return true;
+        return this.list.containsAll(c);
     }
 
     @Override
     public boolean isEmpty() {
         return this.list.isEmpty();
+    }
+
+    @Override
+    public String toString(){
+        return "WaitList with " + list.size() + " elements.";
     }
 }
