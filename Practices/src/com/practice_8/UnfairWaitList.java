@@ -1,6 +1,7 @@
 package com.practice_8;
 
 import java.util.Deque;
+import java.util.Iterator;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class UnfairWaitList <E> extends WaitList<E>{
@@ -35,8 +36,14 @@ public class UnfairWaitList <E> extends WaitList<E>{
         }
     }
 
+    public void print_elements(){
+        Iterator<E> it = this.list.iterator();
+        while (it.hasNext())
+            System.out.println(it.next());
+    }
+
     @Override
     public String toString(){
-        return "UnfairWaitList with " + this.list.size() + " elements.";
+        return "UnfairWaitList with " + this.list.size() + " elements.\n";
     }
 }
