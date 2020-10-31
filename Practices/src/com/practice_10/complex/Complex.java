@@ -1,4 +1,4 @@
-package com.practice_10;
+package com.practice_10.complex;
 
 public class Complex {
     private double real;

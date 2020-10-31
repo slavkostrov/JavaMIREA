@@ -1,6 +1,9 @@
-package com.practice_10;
+package com.practice_10.complex;
 
-public class ConcreteFactory implements ComplexAbstractFactory{
+import com.practice_10.complex.Complex;
+import com.practice_10.complex.ComplexAbstractFactory;
+
+public class ConcreteFactory implements ComplexAbstractFactory {
 
     @Override
     public Complex CreateComplex(double real, double image) {
