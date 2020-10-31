@@ -6,7 +6,7 @@ public class Student implements Comparable <Student>{
     private String name;
     public Student(double average, String name) throws EmptyStringException {
         if(name.isEmpty())
-            throw new EmptyStringException("Name cannot be an empty string");
+            throw new EmptyStringException("Введена пустая строка");
         this.average = average;
         this.name = name;
     }
