@@ -1,7 +1,7 @@
-package com.practice_9;
+package com.practice_9.inn;
 
-import java.util.InputMismatchException;
-import java.util.NoSuchElementException;
+import com.practice_9.inn.BadCodeException;
+
 import java.util.Scanner;
 
 // ИНН физического лица является последовательностью из 12 цифр
